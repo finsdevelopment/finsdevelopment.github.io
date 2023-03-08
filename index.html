@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fin's Development</title>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8" defer></script>
 </head>
 <body>
-    <form action="https://send.pageclip.co/WRRJ2s3lISaYe3iiysIIO2PCsNoPzBTX/Contact_Form" class="pageclip-form" method="post">
+    <form action="https://send.pageclip.co/WRRJ2s3lISaYe3iiysIIO2PCsNoPzBTX/Contact_Form" class="pageclip-form contact-form" method="post">
 
         <!-- Input Fields -->
-        <input type="email" name="email" value="Email" />
-        <input type="text" name="subject" value="Subject" />
+        <br>
+        <input type="email" name="email" class="contact-form_input" placeholder="Email">
+        <br>
+        <input type="text" name="subject" class="contact-form_input" placeholder="Subject">
+        <br>
+        <textarea name="message" class="contact-form_input contact-form_message" placeholder="Message..."></textarea>
+        <br>
       
         <!-- Submit Button -->
-        <button type="submit" class="pageclip-form__submit">
-          <span>Send</span>
+        <button type="submit" class="pageclip-form__submit contact-form_input contact-form_submit">
+          <span>Submit</span>
         </button>
 
     </form>

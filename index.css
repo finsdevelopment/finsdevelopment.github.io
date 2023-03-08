@@ -1,0 +1,31 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contact-form{
+    background: linear-gradient(#7FFFD4, #FFB7C5);
+    box-sizing: border-box;
+    width: 400px;
+    height: 560px;
+}
+.contact-form_input{
+    font-size: large;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.contact-form_message{
+    font-size: x-large;
+    width: 350px;
+    height: 275px;
+    text-align: left;
+}
+.contact-form_submit{
+    width: 200px;   
+    height: 70px;
+    font-size: xx-large;
+}
